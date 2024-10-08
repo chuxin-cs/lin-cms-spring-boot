@@ -8,10 +8,10 @@ server:
 spring:
   # 数据源配置，请修改为你项目的实际配置
   datasource:
-    username: "root"
-    password: "123456"
+    username: "lin-cms"
+    password: "nEwyzRYYmMpRGCye"
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/lin-cms?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
+    url: jdbc:mysql://119.91.239.178:3306/lin-cms?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
 
 
 # 开启权限拦截
